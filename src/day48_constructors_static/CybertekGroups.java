@@ -31,6 +31,10 @@ public class CybertekGroups {
         }else{
             System.out.println("Akrem isnt here");
         }
+        //remove some members from group1
+        group1.removeMember("Ali");
+        group1.removeMember("Dora");
+        System.out.println(group1);
 
 
 

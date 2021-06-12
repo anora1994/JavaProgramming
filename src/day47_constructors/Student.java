@@ -1,4 +1,4 @@
-package day47_constructiors;
+package day47_constructors;
 
 public class Student {
     //No args constructor

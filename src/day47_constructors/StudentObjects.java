@@ -1,4 +1,4 @@
-package day47_constructiors;
+package day47_constructors;
 
 public class StudentObjects {
     public static void main(String[] args) {
