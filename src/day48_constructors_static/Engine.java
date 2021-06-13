@@ -3,11 +3,10 @@ package day48_constructors_static;
 public class Engine {
     private int cylinders;
 
-    public int getCylinders() {
-        return cylinders;
+    public Engine() {
     }
 
-    public void setCylinders(int cylinders) {
+    public Engine(int cylinders) {
         this.cylinders = cylinders;
     }
 
@@ -16,5 +15,13 @@ public class Engine {
         return "Engine{" +
                 "cylinders=" + cylinders +
                 '}';
+    }
+
+    public int getCylinders() {
+        return cylinders;
+    }
+
+    public void setCylinders(int cylinders) {
+        this.cylinders = cylinders;
     }
 }
